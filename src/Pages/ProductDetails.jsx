@@ -25,7 +25,6 @@ const ProductDetails = () => {
           display: "flex",
           justifyContent: "flex-start",
           padding: "0 1rem",
-          //   border: "1px solid red",
         }}
         id="details-section"
       >
