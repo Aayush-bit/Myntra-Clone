@@ -13,10 +13,11 @@
 
 #screen-overlay > div {
     position: relative;
-    width: 80%;
+    width: 70%;
     height: 80vh;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #f5e4e4f6;
+    /* background-color: #ffffff; */
 }
 
 #screen-overlay > div > h3 {
@@ -49,14 +50,12 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
-    /* border: 1px solid black; */
     overflow-y: auto;
 }
 
 .bag-items-info {
     display: flex;
     height: fit-content;
-    /* border: 1px solid red; */
 }
 
 .bag-items-info > div {
