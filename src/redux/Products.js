@@ -1,7 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
+
+// importing data from the dataset
 import MenData from "../Dataset/Men.json";
 import WomenData from "../Dataset/Women.json";
 
+// defined initial state to operate upon
 const initialState = {
   current: {
     products: [...MenData.products, ...WomenData.products],
@@ -32,6 +35,7 @@ const initialState = {
   neutral: [...MenData.products, ...WomenData.products],
 };
 
+// filters and sorting
 export const productSlice = createSlice({
   name: "product",
   initialState,
